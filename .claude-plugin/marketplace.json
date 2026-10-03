@@ -1,0 +1,6 @@
+{
+  "name": "supply-chain-swarm",
+  "owner": { "name": "Matthew R Scott" },
+  "metadata": { "description": "Supply-chain reverse-engineering swarm for Claude Code", "version": "1.0.0" },
+  "plugins": [ { "name": "supply-chain-swarm", "description": "Find every brand selling a product, who makes each one, and grade the factories. Outputs a spreadsheet.", "source": "./" } ]
+}

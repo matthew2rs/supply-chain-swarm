@@ -1,0 +1,8 @@
+{
+  "name": "supply-chain-swarm",
+  "description": "Reverse-engineer any product's supply chain: every brand that sells it, who manufactures each one, and a graded list of factories you can approach. Outputs a spreadsheet.",
+  "version": "1.0.0",
+  "author": { "name": "Matthew R Scott" },
+  "license": "MIT",
+  "commands": "./commands"
+}
