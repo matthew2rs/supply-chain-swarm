@@ -42,8 +42,15 @@ In Claude Code, type these two commands:
 
 Restart Claude Code. Then type `/supply` and you should see `/supply-swarm` in the list.
 
-> **Private repo?** If the repo is private, you need to be invited to it on GitHub first, and
-> logged in to GitHub on your computer (`gh auth login`).
+**Not seeing it?** Check these, in order:
+- You're in Claude Code, not the claude.ai chat or a Claude Project.
+- You ran both commands above, then fully restarted Claude Code.
+- `/plugin` shows `supply-chain-swarm` as installed and enabled.
+
+Don't copy the command file into a chat by hand. Without the plugin installed, Claude can't find the
+prompts and script it needs, so it will only talk about the plan.
+
+**Updating later:** `/plugin marketplace update supply-chain-swarm`, then restart.
 
 ## Run it
 
